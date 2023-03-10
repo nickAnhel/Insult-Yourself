@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2965987603993523597
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2965987603993523595}
+  - component: {fileID: 2965987603993523596}
+  m_Layer: 0
+  m_Name: CursorManager
+  m_TagString: GameController
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2965987603993523595
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2965987603993523597}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2965987603993523596
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2965987603993523597}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4054c8e4b886f784197de24a2a2f51b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cursorAnimationList:
+  - cursorType: 0
+    textureArray:
+    - {fileID: 2800000, guid: 6913359b0081a0b4d9ec79d4a9793289, type: 3}
+    frameRate: 0.1
+    offset: {x: 16, y: 16}
+  - cursorType: 1
+    textureArray:
+    - {fileID: 2800000, guid: b7976cffd4c379c4798e5028eca0d4dd, type: 3}
+    frameRate: 0.1
+    offset: {x: 16, y: 16}
+  - cursorType: 2
+    textureArray:
+    - {fileID: 2800000, guid: b0c48ecc6743eba44ae34fb43658e771, type: 3}
+    - {fileID: 2800000, guid: 6a87dc4511a241b4782e625eba44d30e, type: 3}
+    - {fileID: 2800000, guid: 77aa90be4a1410343b0bc66a63af414b, type: 3}
+    - {fileID: 2800000, guid: 8f943e7c562d3cf46b7c9ace2eba188b, type: 3}
+    - {fileID: 2800000, guid: 1d2cd7e7405c725448f8e7987e30e150, type: 3}
+    - {fileID: 2800000, guid: 470af30346ddc9e4684b73fb89649287, type: 3}
+    - {fileID: 2800000, guid: b714c0ed00c8a1e4789ad37c87fa8c1d, type: 3}
+    - {fileID: 2800000, guid: 3f419bef0c00f1746b60b7427b9881e1, type: 3}
+    - {fileID: 2800000, guid: 28f7a5b67ecc27c4ea0f01e8285bdc01, type: 3}
+    - {fileID: 2800000, guid: bbcb7d76641abc2499d0e78cd863d76b, type: 3}
+    - {fileID: 2800000, guid: fe1c9c72ae927f24281b358ccab8b989, type: 3}
+    - {fileID: 2800000, guid: 4fbc21a60013ce1418b57735b613a106, type: 3}
+    frameRate: 0.01
+    offset: {x: 16, y: 16}
